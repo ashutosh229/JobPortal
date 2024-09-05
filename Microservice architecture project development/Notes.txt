@@ -1,0 +1,23 @@
+What is a monolithic architecture and microservice architecture?
+A monolithic architecture is a web architecture in which everything is at the same place including the database, the backend server and the frontend and the frontend communicates directly with the server and the server with the database and then return the response needed but in case of a microservice architecture, the requirements of the user is broken down in multiple services or frontend and each of the service interact with an intermediate agent (can be graphql, restapi, nats, etc) and then that agent communicate with the respective service backend server(every service has a server as the backend) and then that server interact with the database of the respective server and this is how the flow of the entire application goes on 
+
+There can be monorepo and polyrepo architecture of projects in which the team can work on a single repo since each of the services is present in that single repo only or the teams have to work in multi repo system since the services are present in different repos
+
+Nest:
+First we have to install the cli of the Nest
+Then we install the project directory, either separately or in a scaffold fashion
+
+
+
+user registeration: 
+name
+email
+password
+
+user login:
+identifier(can be  username/email):email
+security code(otp/password):password
+
+apps 
+prisma 
+env 
