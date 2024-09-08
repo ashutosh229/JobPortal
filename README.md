@@ -1,2 +1,2 @@
-# JobPortal
-This is the MERN Application used for job searching and application related activities. 
+# Projects
+This is the repository which contains my projects and other type of codebases related to the skills which i have. 
